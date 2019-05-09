@@ -1,0 +1,22 @@
+.ButtonIcon {
+  display: inline-block;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s ease-out;
+  appearance: none;
+}
+
+.ButtonIcon:active {
+  background-color: #ccc;
+}
+
+.ButtonIcon-holder {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
