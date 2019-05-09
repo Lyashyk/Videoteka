@@ -1,14 +1,17 @@
 .ButtonIcon {
+  height: 48px;
+  width: 48px;
+  border-radius: 10px;
   display: inline-block;
   margin: 0;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 10px;
   outline: none;
   cursor: pointer;
   background-color: transparent;
   transition: all 0.2s ease-out;
   appearance: none;
+  box-sizing: border-box;
 }
 
 .ButtonIcon:active {
@@ -17,6 +20,6 @@
 
 .ButtonIcon-holder {
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 100%;
+  height: 100%;
 }
