@@ -1,0 +1,50 @@
+.FilmCard {
+  text-align: center;
+  position: relative;
+  background-color: #20252b;
+  transition: transform 0.2s ease-out;
+}
+
+.FilmCard:hover {
+  transform: scale(1.05);
+}
+
+.FilmCard-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.FilmCard-holderImage {
+  margin-bottom: 16px;
+  height: 420px;
+}
+
+.FilmCard-name {
+  font-size: 28px;
+  padding: 0 16px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.FilmCard-separator {
+  display: inline-block;
+  height: 1px;
+  background-color: #fff;
+  width: 0%;
+  transition: width 0.5s ease-out;
+  box-sizing: border-box;
+}
+
+.FilmCard:hover .FilmCard-separator {
+  width: 80%;
+}
+
+.FilmCard-button {
+  height: 0px;
+  transition: height 0.5s ease-out;
+}
+
+.FilmCard:hover .FilmCard-button {
+  height: 48px;
+}
