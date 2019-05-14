@@ -1,21 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import IconTrash from '../icons/iconTrash/icon-trash';
 
 import './film-card.css';
-import defaultImage from '../../../public/assets/images/defaultImage.jpg';
 
-const FilmCard = props => {
-  const { src, name } = props;
+const MOVIE_POSTER = '/assets/images/defaultImage.jpg';
 
-  const updatedScr = src || defaultImage;
-
+const FilmCard = ({ name, id, onMovieDelete }) => {
   return (
     <div className="FilmCard">
-      <div className="FilmCard-holderImage">
-        <img className="FilmCard-image" src={`${updatedScr}`} alt="" />
+      <div className="FilmCard-information">
+        <div className="FilmCard-imageHolder">
+          <img className="FilmCard-image" src={MOVIE_POSTER} alt={name} />
+        </div>
+
+        <h3 className="FilmCard-title">
+          <Link className="FilmCard-link" to={`/movie/${id}`} title={name}>
+            {name}
+          </Link>
+        </h3>
+
+        <span className="FilmCard-separator" role="presentation" />
       </div>
-      <div className="FilmCard-name">{name}</div>
-      <span className="FilmCard-separator" />
-      <div className="FilmCard-button" />
+
+      <div className="FilmCard-buttonHolder">
+        <button className="FilmCard-button" onClick={onMovieDelete(id)}>
+          <span className="FilmCard-buttonIcon">
+            <IconTrash />
+          </span>
+        </button>
+      </div>
     </div>
   );
 };
