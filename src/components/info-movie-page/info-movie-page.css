@@ -1,0 +1,28 @@
+.InfoMoviePage {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+}
+
+.InfoMoviePage-content {
+  display: flex;
+  margin: 8px;
+}
+
+.InfoMoviePage-InfoColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 8px;
+  text-align: left;
+  font-size: 36px;
+}
+
+.InfoMoviePage-ImageColumn {
+  padding: 8px;
+}
+
+.holderImage {
+  height: 360px;
+}
