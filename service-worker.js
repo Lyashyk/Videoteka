@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/test-task-videoteka/precache-manifest.b7067b16ce1c5ca6ef88e8228937edb2.js"
+  "/test-task-videoteka/precache-manifest.9c164328f61418c03c2a2c363692079d.js"
 );
 
 self.addEventListener('message', (event) => {
