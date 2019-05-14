@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-task-videoteka/static/css/main.c6fc2450.chunk.css",
+    "main.js": "/test-task-videoteka/static/js/main.29addfbf.chunk.js",
+    "main.js.map": "/test-task-videoteka/static/js/main.29addfbf.chunk.js.map",
+    "runtime~main.js": "/test-task-videoteka/static/js/runtime~main.d505ca84.js",
+    "runtime~main.js.map": "/test-task-videoteka/static/js/runtime~main.d505ca84.js.map",
+    "static/js/2.615839ce.chunk.js": "/test-task-videoteka/static/js/2.615839ce.chunk.js",
+    "static/js/2.615839ce.chunk.js.map": "/test-task-videoteka/static/js/2.615839ce.chunk.js.map",
+    "index.html": "/test-task-videoteka/index.html",
+    "precache-manifest.b7067b16ce1c5ca6ef88e8228937edb2.js": "/test-task-videoteka/precache-manifest.b7067b16ce1c5ca6ef88e8228937edb2.js",
+    "service-worker.js": "/test-task-videoteka/service-worker.js",
+    "static/css/main.c6fc2450.chunk.css.map": "/test-task-videoteka/static/css/main.c6fc2450.chunk.css.map"
+  }
+}
