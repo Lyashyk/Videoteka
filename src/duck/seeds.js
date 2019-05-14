@@ -66,6 +66,140 @@ const state = {
       format: 'DVD',
       stars:
         'John Travolta, Danny DeVito, Renne Russo, Gene Hackman, Dennis Farina'
+    },
+
+    {
+      id: 8,
+      title: 'My Cousin Vinny',
+      releaseYear: '1992',
+      format: 'DVD',
+      stars:
+        'Joe Pesci, Marrisa Tomei, Fred Gwynne, Austin Pendleton, Lane Smith, Ralph Macchio'
+    },
+    {
+      id: 9,
+      title: 'Gladiator',
+      releaseYear: '2000',
+      format: 'Blu-Ray',
+      stars: 'Russell Crowe, Joaquin Phoenix, Connie Nielson'
+    },
+    {
+      id: 10,
+      title: 'Star Wars',
+      releaseYear: '1977',
+      format: 'Blu-Ray',
+      stars:
+        'Harrison Ford, Mark Hamill, Carrie Fisher, Alec Guinness, James Earl Jones'
+    },
+    {
+      id: 11,
+      title: 'Raiders of the Lost Ark',
+      releaseYear: '1981',
+      format: 'DVD',
+      stars: 'Harrison Ford, Karen Allen'
+    },
+    {
+      id: 12,
+      title: 'Serenity',
+      releaseYear: '2005',
+      format: 'Blu-Ray',
+      stars:
+        'Nathan Fillion, Alan Tudyk, Adam Baldwin, Ron Glass, Jewel Staite, Gina Torres, Morena Baccarin, Sean Maher, Summer Glau, Chiwetel Ejiofor'
+    },
+    {
+      id: 13,
+      title: 'Hooisers',
+      releaseYear: '1986',
+      format: 'VHS',
+      stars: 'Gene Hackman, Barbara Hershey, Dennis Hopper'
+    },
+    {
+      id: 14,
+      title: 'WarGames',
+      releaseYear: '1983',
+      format: 'VHS',
+      stars:
+        'Matthew Broderick, Ally Sheedy, Dabney Coleman, John Wood, Barry Corbin'
+    },
+    {
+      id: 15,
+      title: 'Spaceballs',
+      releaseYear: '1987',
+      format: 'DVD',
+      stars:
+        'Bill Pullman, John Candy, Mel Brooks, Rick Moranis, Daphne Zuniga, Joan Rivers'
+    },
+    {
+      id: 16,
+      title: 'Young Frankenstein',
+      releaseYear: '1974',
+      format: 'VHS',
+      stars: 'Gene Wilder, Kenneth Mars, Terri Garr, Gene Hackman, Peter Boyle'
+    },
+    {
+      id: 17,
+      title: 'Young Frankenstein',
+      releaseYear: '1974',
+      format: 'VHS',
+      stars: 'Gene Wilder, Kenneth Mars, Terri Garr, Gene Hackman, Peter Boyle'
+    },
+    {
+      id: 18,
+      title: 'Real Genius',
+      releaseYear: '1985',
+      format: 'VHS',
+      stars: 'Val Kilmer, Gabe Jarret, Michelle Meyrink, William Atherton'
+    },
+    {
+      id: 19,
+      title: 'Top Gun',
+      releaseYear: '1986',
+      format: 'DVD',
+      stars:
+        'Tom Cruise, Kelly McGillis, Val Kilmer, Anthony Edwards, Tom Skerritt'
+    },
+    {
+      id: 20,
+      title: 'MASH',
+      releaseYear: '1970',
+      format: 'DVD',
+      stars:
+        'Donald Sutherland, Elliot Gould, Tom Skerritt, Sally Kellerman, Robert Duvall'
+    },
+    {
+      id: 21,
+      title: 'The Russians Are Coming, The Russians Are Coming',
+      releaseYear: '1966',
+      format: 'VHS',
+      stars: 'Carl Reiner, Eva Marie Saint, Alan Arkin, Brian Keith'
+    },
+    {
+      id: 22,
+      title: 'Jaws',
+      releaseYear: '1975',
+      format: 'DVD',
+      stars: 'Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary '
+    },
+    {
+      id: 23,
+      title: '2001: A Space Odyssey',
+      releaseYear: '1968',
+      format: 'DVD',
+      stars: 'Keir Dullea, Gary Lockwood, William Sylvester, Douglas Rain'
+    },
+    {
+      id: 24,
+      title: 'Harvey',
+      releaseYear: '1950 ',
+      format: 'DVD',
+      stars: 'James Stewart, Josephine Hull, Peggy Dow, Charles Drake'
+    },
+    {
+      id: 25,
+      title: 'Knocked Up',
+      releaseYear: '2007 ',
+      format: 'Blu-Ray',
+      stars: 'Seth Rogen, Katherine Heigl, Paul Rudd, Leslie Mann'
     }
   ],
   filterMovies: [
@@ -135,6 +269,140 @@ const state = {
       format: 'DVD',
       stars:
         'John Travolta, Danny DeVito, Renne Russo, Gene Hackman, Dennis Farina'
+    },
+
+    {
+      id: 8,
+      title: 'My Cousin Vinny',
+      releaseYear: '1992',
+      format: 'DVD',
+      stars:
+        'Joe Pesci, Marrisa Tomei, Fred Gwynne, Austin Pendleton, Lane Smith, Ralph Macchio'
+    },
+    {
+      id: 9,
+      title: 'Gladiator',
+      releaseYear: '2000',
+      format: 'Blu-Ray',
+      stars: 'Russell Crowe, Joaquin Phoenix, Connie Nielson'
+    },
+    {
+      id: 10,
+      title: 'Star Wars',
+      releaseYear: '1977',
+      format: 'Blu-Ray',
+      stars:
+        'Harrison Ford, Mark Hamill, Carrie Fisher, Alec Guinness, James Earl Jones'
+    },
+    {
+      id: 11,
+      title: 'Raiders of the Lost Ark',
+      releaseYear: '1981',
+      format: 'DVD',
+      stars: 'Harrison Ford, Karen Allen'
+    },
+    {
+      id: 12,
+      title: 'Serenity',
+      releaseYear: '2005',
+      format: 'Blu-Ray',
+      stars:
+        'Nathan Fillion, Alan Tudyk, Adam Baldwin, Ron Glass, Jewel Staite, Gina Torres, Morena Baccarin, Sean Maher, Summer Glau, Chiwetel Ejiofor'
+    },
+    {
+      id: 13,
+      title: 'Hooisers',
+      releaseYear: '1986',
+      format: 'VHS',
+      stars: 'Gene Hackman, Barbara Hershey, Dennis Hopper'
+    },
+    {
+      id: 14,
+      title: 'WarGames',
+      releaseYear: '1983',
+      format: 'VHS',
+      stars:
+        'Matthew Broderick, Ally Sheedy, Dabney Coleman, John Wood, Barry Corbin'
+    },
+    {
+      id: 15,
+      title: 'Spaceballs',
+      releaseYear: '1987',
+      format: 'DVD',
+      stars:
+        'Bill Pullman, John Candy, Mel Brooks, Rick Moranis, Daphne Zuniga, Joan Rivers'
+    },
+    {
+      id: 16,
+      title: 'Young Frankenstein',
+      releaseYear: '1974',
+      format: 'VHS',
+      stars: 'Gene Wilder, Kenneth Mars, Terri Garr, Gene Hackman, Peter Boyle'
+    },
+    {
+      id: 17,
+      title: 'Young Frankenstein',
+      releaseYear: '1974',
+      format: 'VHS',
+      stars: 'Gene Wilder, Kenneth Mars, Terri Garr, Gene Hackman, Peter Boyle'
+    },
+    {
+      id: 18,
+      title: 'Real Genius',
+      releaseYear: '1985',
+      format: 'VHS',
+      stars: 'Val Kilmer, Gabe Jarret, Michelle Meyrink, William Atherton'
+    },
+    {
+      id: 19,
+      title: 'Top Gun',
+      releaseYear: '1986',
+      format: 'DVD',
+      stars:
+        'Tom Cruise, Kelly McGillis, Val Kilmer, Anthony Edwards, Tom Skerritt'
+    },
+    {
+      id: 20,
+      title: 'MASH',
+      releaseYear: '1970',
+      format: 'DVD',
+      stars:
+        'Donald Sutherland, Elliot Gould, Tom Skerritt, Sally Kellerman, Robert Duvall'
+    },
+    {
+      id: 21,
+      title: 'The Russians Are Coming, The Russians Are Coming',
+      releaseYear: '1966',
+      format: 'VHS',
+      stars: 'Carl Reiner, Eva Marie Saint, Alan Arkin, Brian Keith'
+    },
+    {
+      id: 22,
+      title: 'Jaws',
+      releaseYear: '1975',
+      format: 'DVD',
+      stars: 'Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary '
+    },
+    {
+      id: 23,
+      title: '2001: A Space Odyssey',
+      releaseYear: '1968',
+      format: 'DVD',
+      stars: 'Keir Dullea, Gary Lockwood, William Sylvester, Douglas Rain'
+    },
+    {
+      id: 24,
+      title: 'Harvey',
+      releaseYear: '1950 ',
+      format: 'DVD',
+      stars: 'James Stewart, Josephine Hull, Peggy Dow, Charles Drake'
+    },
+    {
+      id: 25,
+      title: 'Knocked Up',
+      releaseYear: '2007 ',
+      format: 'Blu-Ray',
+      stars: 'Seth Rogen, Katherine Heigl, Paul Rudd, Leslie Mann'
     }
   ],
   term: '',
