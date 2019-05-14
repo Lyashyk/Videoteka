@@ -1,0 +1,81 @@
+.Dashboard {
+  padding: 48px 16px;
+  background-color: #000;
+}
+
+.Dashboard-title {
+  margin: 0;
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.Dashboard-formRow {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.Dashboard-formRow:last-child {
+  margin-bottom: 0;
+}
+
+.Dashboard-inputYear {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.Dashboard-inputYearField {
+  padding: 4px 16px;
+  box-sizing: border-box;
+  background-color: #5f5f5f;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  line-height: 36px;
+  font-size: 32px;
+  color: #fff;
+  outline: none;
+}
+
+.Dashboard-inputYearField::placeholder {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.Dashboard-inputFormat {
+  display: inline-block;
+}
+
+.Dashboard-inputFormatSelect {
+  padding: 4px 16px;
+  box-sizing: border-box;
+  background-color: #5f5f5f;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  line-height: 36px;
+  font-size: 32px;
+  color: #fff;
+  outline: none;
+}
+
+.Dashboard-inputStarsList {
+  width: 100%;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  background-color: #5f5f5f;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  line-height: 28px;
+  font-size: 24px;
+  color: #fff;
+  outline: none;
+  resize: none;
+}
+
+.Dashboard-inputStarsList::placeholder {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.Dashboard-formRowButton {
+  text-align: center;
+}
