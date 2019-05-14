@@ -1,0 +1,13 @@
+.Page {
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.Page-header {
+  margin-bottom: 120px;
+  background-color: #20252b;
+}
+
+.Page-filter {
+  margin-bottom: 16px;
+}
